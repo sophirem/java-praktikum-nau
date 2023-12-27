@@ -91,6 +91,20 @@ header {
 
 nav {
   padding-top: 16px;
+  display: flex;
+}
+
+nav svg {
+  padding-right: 4px;
+}
+
+nav a {
+  color: #242424;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 nav>a:not(:last-child) {
@@ -114,4 +128,125 @@ nav>a:not(:last-child) {
   letter-spacing: -0.7px;
   color: #242424;
   margin: 24px 0;
+}
+
+section {
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+}
+
+section:nth-child(2) {
+  margin-bottom: 24px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.section-header h2 {
+  color: #2D3E5B;
+  font-family: Spectral;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.section-header span {
+  color: #242424;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+p {
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+}
+
+li {
+  list-style: initial;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+}
+
+ul {
+  padding-left: 15px;
+}
+
+section:last-child {
+  display: flex;
+}
+
+section:last-child h2 {
+  font-family: Spectral;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.42px;
+}
+
+.column:nth-child(1) p {
+  margin-bottom: 16px;
+  margin-top: 2px;
+}
+
+.column {
+  width: 50%;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 140% */
+}
+
+.column div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EDEDED;
+  padding: 8px 0;
+  margin-bottom: 16px;
+}
+
+.column:nth-child(2) {
+  margin-left: 32px;
+}
+
+
+.column:nth-child(2) p {
+  color: #242424;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.icon {
+  height: 12px;
+  width: 12px;
+  padding-right: 4px;
+}
+
+.section-header span {
+  display: flex;
+}
+
+.column p {
+  display: flex;
 }
