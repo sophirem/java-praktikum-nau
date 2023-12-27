@@ -14,3 +14,104 @@
     font-weight: 500;
     src: url('../fonts/spectral-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+  /* lato-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+body {
+  padding: 40px;
+  width: 515px;
+  height: 867px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+    font-family: Spectral;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    color: #2D3E5B;
+}
+
+h3 {
+  color: #DB9291;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+#profile_photo {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-view-box: inset(10% 0% 40% 0%);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#header-infobox {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+#header-infobox>h3 {
+  padding-left: 3px;
+}
+
+nav {
+  padding-top: 16px;
+}
+
+nav>a:not(:last-child) {
+  padding-right: 16px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+#abstract {
+  background-color: #F7F8F8;
+  padding: 16px;
+  border-radius: 10px;
+  font-family: Spectral;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130.2%; /* 18.228px */
+  letter-spacing: -0.7px;
+  color: #242424;
+  margin: 24px 0;
+}

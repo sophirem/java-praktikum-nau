@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>CSS0.3</title>
 </head>
 <body>
     <header>
-        <h1>Caroline Smith</h1>
-        <h3>Product designer (UX/UI)</h3>
+        <img src="./profile_photo.jpeg" id="profile_photo"> 
+        <div id="header-infobox">
+            <h1>Caroline Smith</h1>
+            <h3>Product designer (UX/UI)</h3>
+        </div>
+        <div class="break"></div>
         <nav>
             <a href="#">carolinesmith@gmail.com</a>
             <a href="#">Portfolio</a>
@@ -17,14 +24,14 @@
         </nav>
     </header>
     <main>
-        <p>I'm a Product Designer, based in L.A and focused on Fintech Startups.<br>
-        Use this block to introduce yourself. Tell the world what you do and why they should care.</p>
+        <p id="abstract"> 
+            I'm a Product Designer, based in L.A and focused on Fintech Startups.<br>
+            Use this block to introduce yourself. Tell the world what you do and why they should care.
+        </p>
 
+        <h3>Experience</h3> 
         <section>
-            <article>
-                <h2>Experience</h2>
-            </article>    
-                <h2 style="font-weight: normal;"><i>Product Designer (UX/UI Lead)</i></h2>
+                <h2><i>Product Designer (UX/UI Lead)</i></h2>
                 
                 <ul>
                     <li>Conducted user interviews, surveys, competitive analysis, and market research.</li>
@@ -55,18 +62,18 @@
             <hr>
         <section>
             <div class="column">
-                <h2>Skills</h2>
+                <h3>Skills</h3>
                 <ul>
-                    <h3><li>UX Design</li></h3>
+                    <h2><li>UX Design</li></h2>
                     <p>Data analysis, User Research, User testing, Teamwork, Wireframing, Prototyping.</p>
-                    <h3><li>Tools</li></h3>
+                    <h2><li>Tools</li></h2>
                     <p>Figma, Stark, Figjam, Protopie, Maze, Webflow, Slack, Zeplin, Wordpress.</p>
-                    <h3><li>Languages</li></h3>
+                    <h2><li>Languages</li></h2>
                     <p>Spanish and English.</p>
                 </ul>
             </div>
             <div class="column">
-                <h2>Education</h2>
+                <h3>Education</h3>
                 <ul>
                     <li>Course in UX Research</li>
                     <li>Master in Social Innovation</li>
