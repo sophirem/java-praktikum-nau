@@ -1,130 +1,16 @@
-/* lora-regular - latin */
+/* spectral-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Lora';
+    font-family: 'Spectral';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/lora-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* lora-700 - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/lora-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* inter-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/spectral-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-
-* {
-    color: #2D2D2D;
-    font-family: Lora;
-}
-
-body {
-    width: 740px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header {
-    padding: 30px 0;
-}
-
-article {
-    padding-bottom: 40px;
-    border-top: 1px solid #E9E9E9;
-}
-
-footer {
-    padding-top: 20px;
-    border-top: 1px solid #E9E9E9;
-}
-
-h1 {
-    font-size: 64px;
+  /* spectral-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Spectral';
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: #2D2D2D;
-
-    margin-bottom: 5px;
-}
-
-h2 {
-    color: #000;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: normal;
-
-    margin-bottom: 30px;
-}
-
-h3 {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-    
-    padding-top: 9px;
-    margin-bottom: 25px;
-}
-
-h4 {
-    color: #757575;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    margin-bottom: 24px;
-}
-
-p {
-    color: #757575;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    padding-left: 20px;
-}
-
-li {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    list-style: initial;
-    padding-left: 20px;
-}
-
-ul {
-    padding-left: 47px;
-}
-
-span, a {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
-}
-
-a {
-    margin-left: 20px;
-    margin-right: 16px;
-}
-
-li:not(:last-child) { 
-    margin-bottom: 13px;
-}
+    font-weight: 500;
+    src: url('../fonts/spectral-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
