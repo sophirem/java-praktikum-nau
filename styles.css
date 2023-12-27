@@ -31,8 +31,8 @@
 
 body {
     width: 740px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
